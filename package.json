@@ -1,0 +1,7 @@
+{
+  "name": "yarn-talk-demo",
+  "packageManager": "yarn@4.5.3",
+  "scripts": {
+    "start-verdaccio": "docker compose up -d"
+  }
+}
