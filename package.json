@@ -6,6 +6,7 @@
     "start-verdaccio": "docker compose up -d"
   },
   "dependencies": {
-    "@yarn-talk/external-dep": "^1.0.0"
+    "@yarn-talk/external-dep": "^1.0.0",
+    "@yarn-talk/external-dep2": "^1.0.0"
   }
 }
