@@ -23,17 +23,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarn-talk/internal-dep@npm:>=0.1.0":
+"@yarn-talk/internal-dep@npm:>=0.1.0, @yarn-talk/internal-dep@npm:^0.1.0":
   version: 0.1.1
   resolution: "@yarn-talk/internal-dep@npm:0.1.1"
   checksum: 10c0/af6eba84ef99d2ff069971269b3ec399f14ab3cf52aeb1aeb7ec206b3c838a671f2261901ce3134e963a847aa7ad82017078630ddd02fac66f39d477f727ceda
-  languageName: node
-  linkType: hard
-
-"@yarn-talk/internal-dep@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "@yarn-talk/internal-dep@npm:0.1.0"
-  checksum: 10c0/fcd82e922b24e51a4943d73696e9c1dcc292b4b095fd36f4c679a3ec72eb52aff6932f1347fceb860541d4aa3bb88a067ec4c2920a14947273f4ee37190195c7
   languageName: node
   linkType: hard
 
