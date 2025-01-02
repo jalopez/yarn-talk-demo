@@ -18,16 +18,35 @@
 				"tarball": "http://localhost:4873/@yarn-talk/internal-dep/-/@yarn-talk/internal-dep-0.1.0.tgz"
 			},
 			"contributors": []
+		},
+		"0.1.1": {
+			"name": "@yarn-talk/internal-dep",
+			"version": "0.1.1",
+			"main": "index.js",
+			"publishConfig": {
+				"registry": "http://localhost:4873"
+			},
+			"_id": "@yarn-talk/internal-dep@0.1.1",
+			"gitHead": "3f6b323b7b8cb399d6d2c63d420441022b819529",
+			"_nodeVersion": "22.12.0",
+			"_npmVersion": "10.9.0",
+			"dist": {
+				"integrity": "sha512-c/Cti1rZv/2Ef/N+V8H+SVZsRdeQgu6XmBM8YPxL+RawkC0IDCcRTuItM5EM1SfN2wWHa6erouObBy49dQ1qSw==",
+				"shasum": "e6b12876108caa9524bcebf6d3b09afa54d7e434",
+				"tarball": "http://localhost:4873/@yarn-talk/internal-dep/-/@yarn-talk/internal-dep-0.1.1.tgz"
+			},
+			"contributors": []
 		}
 	},
 	"time": {
-		"modified": "2025-01-02T10:09:21.380Z",
+		"modified": "2025-01-02T10:15:27.678Z",
 		"created": "2025-01-02T08:59:48.069Z",
-		"0.1.0": "2025-01-02T08:59:48.069Z"
+		"0.1.0": "2025-01-02T08:59:48.069Z",
+		"0.1.1": "2025-01-02T10:15:27.678Z"
 	},
 	"users": {},
 	"dist-tags": {
-		"latest": "0.1.0"
+		"latest": "0.1.1"
 	},
 	"_uplinks": {},
 	"_distfiles": {},
@@ -35,9 +54,13 @@
 		"internal-dep-0.1.0.tgz": {
 			"shasum": "cc272255e3794ae16370db0815e11a7db97fd61b",
 			"version": "0.1.0"
+		},
+		"internal-dep-0.1.1.tgz": {
+			"shasum": "e6b12876108caa9524bcebf6d3b09afa54d7e434",
+			"version": "0.1.1"
 		}
 	},
-	"_rev": "8-9e800f2626375b25",
+	"_rev": "11-26b7ab59feffa896",
 	"_id": "@yarn-talk/internal-dep",
 	"readme": "ERROR: No README data found!"
 }
