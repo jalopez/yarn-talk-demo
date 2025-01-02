@@ -2,9 +2,10 @@
   "name": "yarn-talk-demo",
   "packageManager": "yarn@4.5.3",
   "scripts": {
+    "start": "node src/index.js",
     "start-verdaccio": "docker compose up -d"
   },
   "dependencies": {
-    "hello-world-npm": "^1.0.0"
+    "@yarn-talk/external-dep": "^1.0.0"
   }
 }

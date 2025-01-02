@@ -5,12 +5,19 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"hello-world-npm@npm:^1.0.0":
-  version: 1.1.1
-  resolution: "hello-world-npm@npm:1.1.1"
-  bin:
-    hello-world-npm: ./bin.js
-  checksum: 10c0/c983ad03a13ef12b2424914f2eb09e2b9d73c7ae076285ec367d5d6e3666c212b89ff35c6f18dc6de1a4d5596cde122755a7cf414e2096ce6c9626cd49b71965
+"@yarn-talk/external-dep@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@yarn-talk/external-dep@npm:1.0.0"
+  dependencies:
+    "@yarn-talk/internal-dep": "npm:^0.1.0"
+  checksum: 10c0/393a372753a22257c916a164fbcad9fa2b4a0701e7a5f85006b3d73edc2d8bd58ef915d692be7ed56bc22beef382bc29a1ace544d7db235f999444e0ebd225f8
+  languageName: node
+  linkType: hard
+
+"@yarn-talk/internal-dep@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "@yarn-talk/internal-dep@npm:0.1.0"
+  checksum: 10c0/fcd82e922b24e51a4943d73696e9c1dcc292b4b095fd36f4c679a3ec72eb52aff6932f1347fceb860541d4aa3bb88a067ec4c2920a14947273f4ee37190195c7
   languageName: node
   linkType: hard
 
@@ -18,6 +25,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "yarn-talk-demo@workspace:."
   dependencies:
-    hello-world-npm: "npm:^1.0.0"
+    "@yarn-talk/external-dep": "npm:^1.0.0"
   languageName: unknown
   linkType: soft

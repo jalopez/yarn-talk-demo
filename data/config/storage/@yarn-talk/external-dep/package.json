@@ -1,0 +1,46 @@
+{
+	"name": "@yarn-talk/external-dep",
+	"versions": {
+		"1.0.0": {
+			"name": "@yarn-talk/external-dep",
+			"version": "1.0.0",
+			"main": "index.js",
+			"publishConfig": {
+				"registry": "http://localhost:4873"
+			},
+			"dependencies": {
+				"@yarn-talk/internal-dep": "^0.1.0"
+			},
+			"_id": "@yarn-talk/external-dep@1.0.0",
+			"gitHead": "6c71a2b2125edd55548d277c66aa4f0d749f5be1",
+			"_nodeVersion": "22.12.0",
+			"_npmVersion": "10.9.0",
+			"dist": {
+				"integrity": "sha512-B5s8ELIQxAxfa5Ez2GED79MRxHMyxOre6rz8aalMQl4ihs+pSTe9Trmi6HTO7p0Vvj8OvDhTECqvwMwaGmR9hA==",
+				"shasum": "089f6b4bf4dc09bb909e03312e1aca1ef3ab0d73",
+				"tarball": "http://localhost:4873/@yarn-talk/external-dep/-/@yarn-talk/external-dep-1.0.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2025-01-02T09:09:20.462Z",
+		"created": "2025-01-02T09:09:20.462Z",
+		"1.0.0": "2025-01-02T09:09:20.462Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"external-dep-1.0.0.tgz": {
+			"shasum": "089f6b4bf4dc09bb909e03312e1aca1ef3ab0d73",
+			"version": "1.0.0"
+		}
+	},
+	"_rev": "3-e2e8e97ba15439d8",
+	"_id": "@yarn-talk/external-dep",
+	"readme": "ERROR: No README data found!"
+}
