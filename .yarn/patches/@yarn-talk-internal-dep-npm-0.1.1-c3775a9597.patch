@@ -1,0 +1,11 @@
+diff --git a/index.js b/index.js
+index 8bf76e45e4b6f630ed3a2dbc1a920975da4a4dd8..2b78c20b331b53b6b4b174eff3e251267e8eaa80 100644
+--- a/index.js
++++ b/index.js
+@@ -2,5 +2,5 @@ var pjson = require('./package.json');
+ 
+ module.exports = {
+   name: pjson.name,
+-  version: pjson.version
++  version: pjson.version + ' PATCHED!'
+ };

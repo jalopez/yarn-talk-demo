@@ -11,6 +11,8 @@
     "@yarn-talk/external-dep2": "^1.0.0"
   },
   "resolutions": {
-    "@yarn-talk/external-dep-fixed/@yarn-talk/internal-dep": "0.1.1"
+    "@yarn-talk/internal-dep@npm:0.1.0": "patch:@yarn-talk/internal-dep@npm%3A0.1.1#~/.yarn/patches/@yarn-talk-internal-dep-npm-0.1.1-c3775a9597.patch",
+    "@yarn-talk/internal-dep@npm:>=0.1.0": "patch:@yarn-talk/internal-dep@npm%3A0.1.1#~/.yarn/patches/@yarn-talk-internal-dep-npm-0.1.1-c3775a9597.patch",
+    "@yarn-talk/internal-dep@npm:^0.1.0": "patch:@yarn-talk/internal-dep@npm%3A0.1.1#~/.yarn/patches/@yarn-talk-internal-dep-npm-0.1.1-c3775a9597.patch"
   }
 }
