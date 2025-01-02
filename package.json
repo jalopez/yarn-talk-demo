@@ -9,5 +9,8 @@
     "@yarn-talk/external-dep": "^1.0.0",
     "@yarn-talk/external-dep-fixed": "^1.0.0",
     "@yarn-talk/external-dep2": "^1.0.0"
+  },
+  "resolutions": {
+    "@yarn-talk/external-dep-fixed/@yarn-talk/internal-dep": "0.1.1"
   }
 }
