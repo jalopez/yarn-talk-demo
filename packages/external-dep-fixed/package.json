@@ -1,0 +1,11 @@
+{
+  "name": "@yarn-talk/external-dep-fixed",
+  "version": "1.0.0",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  },
+  "dependencies": {
+    "@yarn-talk/internal-dep": "0.1.0"
+  }
+}

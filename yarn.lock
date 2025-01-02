@@ -5,6 +5,15 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"@yarn-talk/external-dep-fixed@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@yarn-talk/external-dep-fixed@npm:1.0.0"
+  dependencies:
+    "@yarn-talk/internal-dep": "npm:0.1.0"
+  checksum: 10c0/0957d25fe736a1fc1b42571a805dfd65c4e5a5f0d2dd46332a43b1d85501f2f52470f456193bd503fe1771ed5dfca812eae8e4e2c0df9c6ea7f51fb584911aca
+  languageName: node
+  linkType: hard
+
 "@yarn-talk/external-dep2@npm:^1.0.0":
   version: 1.0.0
   resolution: "@yarn-talk/external-dep2@npm:1.0.0"
@@ -23,6 +32,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@yarn-talk/internal-dep@npm:0.1.0":
+  version: 0.1.0
+  resolution: "@yarn-talk/internal-dep@npm:0.1.0"
+  checksum: 10c0/fcd82e922b24e51a4943d73696e9c1dcc292b4b095fd36f4c679a3ec72eb52aff6932f1347fceb860541d4aa3bb88a067ec4c2920a14947273f4ee37190195c7
+  languageName: node
+  linkType: hard
+
 "@yarn-talk/internal-dep@npm:>=0.1.0, @yarn-talk/internal-dep@npm:^0.1.0":
   version: 0.1.1
   resolution: "@yarn-talk/internal-dep@npm:0.1.1"
@@ -35,6 +51,7 @@ __metadata:
   resolution: "yarn-talk-demo@workspace:."
   dependencies:
     "@yarn-talk/external-dep": "npm:^1.0.0"
+    "@yarn-talk/external-dep-fixed": "npm:^1.0.0"
     "@yarn-talk/external-dep2": "npm:^1.0.0"
   languageName: unknown
   linkType: soft
